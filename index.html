@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li class="active">My Profile</li>
+            <li>Find connections</li>
+        </ul>
+        <button class="btn">Sign Out</button>
+    </div>
+    <div class="container">
+        <div class="columna1">
+            <div class="profile">
+                <div class="profilebar">
+                    <img src="user-circle.png" alt="profile pic" id="profilepic">
+                </div>
+                <div class="main">
+                    <h1 id="name">Jane Doe</h1>
+                    <div id="ubi">
+                        <img src="map-marker.png" alt="ubication pic" id="ubipic">
+                        <h3 id="ubitext"> Seattle</h3>
+                    </div>
+                </div>    
+                <div id="bio">
+                    <p id="biotext1">Developer | Enginner | Problem Solver</p>
+                    <p id="biotext2">Master of shadows and the Internet!</p>
+                </div>
+                <div class="edit">
+                    <img src="gear.png" alt="gear pic" id="gearpic">
+                    <a href="index.html">Edit profile</a>
+                </div>
+            </div>
+            <div class="contentbox">
+                <div id="contentbar">
+                <h2 class="titulo"> Education</h2>
+                </div>
+                <div id="contentmain">
+                    <h2 id="content1r">Coding Dojo - Full Stack Bootcamp</h2>
+                    <h3 id="fechabc">Dec 2019 - Mar 2020</h3>
+                    <p id="text1">Triple black belt in Python, MERN, C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="columna2">
+            <div class="sidebar-cr">
+                <div id="crbar">
+                    <h2 class="cantidad">2</h2>
+                    <h2 class="titulo">Connection Requests</h2>
+                </div>
+                <div id="userreq">
+                        <img src="user-circle.png" alt="user pic" id="minipic">
+                        <p id="userreqname">Todd E</p>
+                        <img src="accept-circle.png" alt="accept pic" id="minibtn">
+                        <img src="close-circle.png" alt="reject pic" id="minibtn">
+                </div>
+                <div id="userreqbox"></div>
+                        <div id="userreq">
+                            <img src="user-circle.png" alt="user pic" id="minipic">
+                            <p id="userreqname">Kevin G</p>
+                            <img src="accept-circle.png" alt="accept pic" id="minibtn">
+                            <img src="close-circle.png" alt="reject pic" id="minibtn">
+                        </div>
+            </div>
+            <div class="sidebar-cr" id="yourconnect">
+                <div id="crbar">
+                    <h2 class="cantidad">+500</h2>
+                    <h2 class="titulo">Your Connections</h2>
+                </div>
+                <div id="friend">
+                        <img src="user-circle.png" alt="user pic" id="minipic">
+                        <p id="friendname">Cipi N</p>
+                </div>
+                <div id="friend">
+                    <img src="user-circle.png" alt="user pic" id="minipic">
+                    <p id="friendname">Nico L</p>
+                </div>
+                <div id="friend">
+                    <img src="user-circle.png" alt="user pic" id="minipic">
+                    <p id="friendname">Mik C</p>
+                </div>
+                <div id="friend">
+                    <img src="user-circle.png" alt="user pic" id="minipic">
+                    <p id="friendname">Merlo C</p>
+                </div>
+                
+                <a id="vm" href="#" >View More</a>   
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
