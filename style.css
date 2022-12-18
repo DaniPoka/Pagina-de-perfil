@@ -148,7 +148,7 @@ p {
     border: 3px solid grey;
 }
 
-#crbar {
+.crbar {
     background-color: rgb(58, 58, 58);
     height: 65px;
     display: flex;
@@ -169,7 +169,7 @@ p {
 }
 
 
-#userreq {
+.userreq {
     display: flex;
     margin-left: 10px;
     margin-right: 30px;
@@ -181,13 +181,13 @@ p {
     display: flex;
 }
 
-#userreqname {
+.userreqname {
     display: flex;
     flex: 1;
     justify-content: center;
 }
 
-#minipic {
+.minipic {
     width: 40px;
     height: 40px;
     margin-right: 20px;
@@ -196,7 +196,7 @@ p {
     
 }
 
-#minibtn {
+.minibtn {
     width: 40px;
     height: 40px;
     display: flex;
@@ -254,7 +254,7 @@ p {
     
 }
 
-#friend {
+.friend {
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
